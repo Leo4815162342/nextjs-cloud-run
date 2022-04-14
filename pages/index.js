@@ -12,7 +12,7 @@ export default function Index() {
   return (
     <ul>
       {data.map((p, i) => (
-        <Person key={i} person={p} />
+        <><Person key={i} person={p} /><div>test</div></>
       ))}
     </ul>
   )
